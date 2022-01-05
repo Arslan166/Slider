@@ -1,0 +1,46 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#6E6E6E;
+}
+.set-heading{
+	margin:10px;
+	color:white;
+	text-align:center;
+}
+.sliders{
+	position:relative;
+	width:550px;
+	height:280px;
+	border:2px solid white;
+	top:50%;
+	left:20%;
+	background-image:url('../images/new-bgc.jpg');
+	background-size: 100% 100%;
+	box-shadow: 5px 5px 10px 5px white;
+	animation:slider 9s infinite linear;
+
+}
+@keyframes slider{
+	0%{background-image:url('../images/new-bgc.jpg');}
+	
+	35%{background-image:url('../images/Women1.jpeg');}
+	
+	75%{background-image:url('../images/Women 5.jpeg');}
+}
+@media(max-width:575.98px){
+	body{
+	background-color:#F25022;
+}
+.set-heading{
+	color:black;
+	font-size:70px;
+	text-align:center;
+}
+.sliders{
+	width:200px;
+	height:200px;
+}
+}
